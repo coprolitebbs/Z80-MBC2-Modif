@@ -138,6 +138,7 @@ void getSerial() {
 
 }
 
+
 //Отправка считанного в SoftSerial для отладки
 void outData() {
   PORTB |= _BV(1);
