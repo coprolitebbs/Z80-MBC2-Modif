@@ -1,2 +1,5 @@
 # Z80-MBC2-Modif
-My z80-MBC2 Modifications
+z80-MBC2 И модификации
+
+
+Оригинальная прошивка Retro WiFi modem: https://github.com/mecparts/RetroWiFiModem
