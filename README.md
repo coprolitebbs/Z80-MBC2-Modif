@@ -5,7 +5,7 @@ z80-MBC2 И модификации
 # Файлы
 /out/ - Последний вариант, экспортные файлы Kicad платы Z80-MBC2. Перепутаны RX и TX с выхода микросхемы MAX232 на разъем RS232, требуется менять дорожки.
 
-Modified-RetroWiFiModem.zip - Прошивка для Wemos D1 Mini адаптированная для платы i2c-транслятора
+Modified-RetroWiFiModem.7z - Прошивка для Wemos D1 Mini адаптированная для платы i2c-транслятора
 
 i2c-slave-translator.ino - Прошивка для Arduino Pro Mini 5V, используемая в качестве i2c-транслятора для модема
 
