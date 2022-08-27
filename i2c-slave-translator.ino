@@ -58,13 +58,11 @@ void receiveEvent(int numBytes) {
 void requestEvent() {
   uint8_t pack[2];
   pack[0] = 0;
-  pack[2] = 2;
-  //byte resp = 0;
-  //byte atr = 2;  //Атрибут байта установим по умолчанию в 2. Это значит, что с модема ничего не читалось,
-  //и нам нечего возвращать на шину I2C компьютеру
+  pack[2] = 2;    //Атрибут байта установим по умолчанию в 2. Это значит, что с модема ничего не читалось,
+				  //и нам нечего возвращать на шину I2C компьютеру
   PORTB |= _BV(1);
   if (DataReaded) {
-    /*resp*/pack[0] = (uint8_t)rec[recptr++];
+    pack[0] = (uint8_t)rec[recptr++];
     pack[1] = 1;
     if (recptr == reclen) {
       DataReaded = false;
